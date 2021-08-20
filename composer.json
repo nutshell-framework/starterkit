@@ -1,0 +1,34 @@
+{
+    "name": "nutshell-framework/starterkit",
+    "description": "Start a new contao project based on the nutshell framework",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Dennis Erdmann",
+            "email": "dennis@erdmann-freunde.de"
+        }
+    ],
+    "require": {
+        "php": "^5.6|^7.0",
+        "contao/manager-bundle": "4.9.*",
+        "contao/calendar-bundle": "^4.9",
+        "contao/comments-bundle": "^4.9",
+        "contao/faq-bundle": "^4.9",
+        "contao/listing-bundle": "^4.9",
+        "contao/news-bundle": "^4.9",
+        "contao/newsletter-bundle": "^4.9",
+        "nutshell-framework/nutshell": "^1.0"
+    },
+    "config": {
+        "component-dir": "assets"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "Contao\\ManagerBundle\\Composer\\ScriptHandler::initializeApplication"
+        ],
+        "post-update-cmd": [
+            "Contao\\ManagerBundle\\Composer\\ScriptHandler::initializeApplication"
+        ]
+    }
+}

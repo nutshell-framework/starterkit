@@ -1,0 +1,47 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.buildpath
+.project
+.settings/
+.build/
+.idea/
+nbproject/
+
+# App config
+/app/config/parameters.yml
+/config/parameters.yml
+
+# Generated folders
+/assets/
+/contao-manager/
+/system/*
+!/system/config/
+/system/config/localconfig.php
+/system/config/tcpdf.php
+/var/
+/vendor/
+
+# Symlinked resources
+/web/assets
+/web/bundles/
+/web/files/
+/web/share/
+/web/system/
+/web/vendor/
+
+# Skip files
+/system/modules/*/.skip
+
+# Nutshell
+package-lock.json
+/node_modules/
+/files/nutshell
+/files/starterkit/dist/css/*
+/files/starterkit/dist/fonts/*
+/files/starterkit/dist/img/*
+/files/starterkit/dist/js/*
+/files/starterkit/dist/maps/*
+!/files/starterkit/dist/**/index.html
