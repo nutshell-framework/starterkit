@@ -18,7 +18,8 @@
         "contao/listing-bundle": "^4.9",
         "contao/news-bundle": "^4.9",
         "contao/newsletter-bundle": "^4.9",
-        "nutshell-framework/nutshell": "^1.0"
+        "nutshell-framework/nutshell": "^1.0",
+        "richardhj/contao-backup-manager": "^2.2"
     },
     "config": {
         "component-dir": "assets"
