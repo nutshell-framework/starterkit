@@ -45,3 +45,6 @@ package-lock.json
 /files/starterkit/dist/js/*
 /files/starterkit/dist/maps/*
 !/files/starterkit/dist/**/index.html
+
+# Theme
+gulpfile.js
