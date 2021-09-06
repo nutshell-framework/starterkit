@@ -10,11 +10,13 @@ Be reminded that starting with the point you created the project (`composer crea
 ## Usage
 ### Create composer project
 ```bash
-composer create-project nutshell-framework/starterkit [path]
+composer create-project nutshell-framework/starterkit [path] [branch]
 ```
-Make sure to replace `[path]` with the name of the folder you want to install your Contao installation in.
+`[path]`= name of the folder you want to install your Contao installation in
 
-Alternatively, download and extract the zip file, run `composer install`.
+`[branch]` = choose a branch from the repository, for example `4.9.x-dev` for a contao 4.9 installation
+
+_Alternatively, download and extract the zip file, run `composer install`._
 
 ### Change to the Contao installation
 ```bash
