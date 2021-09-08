@@ -13,6 +13,7 @@ nbproject/
 # App config
 /app/config/parameters.yml
 /config/parameters.yml
+.env.local
 
 # Generated folders
 /assets/
@@ -23,6 +24,7 @@ nbproject/
 /system/config/tcpdf.php
 /var/
 /vendor/
+/backups/
 
 # Symlinked resources
 /web/assets
