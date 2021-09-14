@@ -21,8 +21,8 @@
         "nutshell-framework/nutshell": "^1.0",
         "richardhj/contao-backup-manager": "^2.2"
     },
-    "config": {
-        "component-dir": "assets"
+    "extra": {
+        "contao-component-dir": "assets"
     },
     "scripts": {
         "post-install-cmd": [
