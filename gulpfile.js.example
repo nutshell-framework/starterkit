@@ -9,7 +9,8 @@ const postcss       = require('gulp-postcss');
 const autoprefixer  = require('autoprefixer');
 
 
-const themePath     = 'files/starterkit/';
+const themePath     = 'theme/';
+const distPath      = 'web/theme/';
 
 // browser sync proxy url: e.g. a vhost-based url, 
 // see also: https://www.browsersync.io/docs/options#option-proxy
@@ -17,16 +18,16 @@ const bsProxy       = 'nutshell.localhost';
 
 const paths = {
     src: {
-        styles:     themePath + 'src/scss/default.scss',
-        scripts:    themePath + 'src/js/**/*.js',
-        images:     themePath + 'src/img/**/*',
-        fonts:      themePath + 'src/fonts/**/*'
+        styles:     themePath + 'scss/default.scss',
+        scripts:    themePath + 'js/**/*.js',
+        images:     themePath + 'img/**/*',
+        fonts:      themePath + 'fonts/**/*'
     },
     dist: {
-        styles:     themePath + 'dist/css',
-        scripts:    themePath + 'dist/js',
-        images:     themePath + 'dist/img',
-        fonts:      themePath + 'dist/fonts'
+        styles:     distPath + 'css',
+        scripts:    distPath + 'js',
+        images:     distPath + 'img',
+        fonts:      distPath + 'fonts'
     },
     watch: {
         styles:     themePath + 'src/scss/**/*.scss',
@@ -99,6 +100,9 @@ const watch = function(done) {
 const serve = function(done) {
     browserSync.init({
         proxy: bsProxy,
+        /* activate for local https
+        https: { key: "/usr/local/etc/httpd/certs/localhost-key.pem", cert: "/usr/local/etc/httpd/certs/localhost.pem" },
+        */
         open: false,
         injectNotification: 'overlay'
     }, () => {

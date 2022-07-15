@@ -40,13 +40,12 @@ nbproject/
 # Nutshell
 package-lock.json
 /node_modules/
-/files/nutshell
-/files/starterkit/dist/css/*
-/files/starterkit/dist/fonts/*
-/files/starterkit/dist/img/*
-/files/starterkit/dist/js/*
-/files/starterkit/dist/maps/*
-!/files/starterkit/dist/**/index.html
+/web/files/nutshell
+/web/theme/css/*
+/web/theme/fonts/*
+/web/theme/img/*
+/web/theme/js/*
+/web/theme/maps/*
 
 # Theme
 gulpfile.js
