@@ -18,7 +18,7 @@
         "contao/listing-bundle": "^4.13",
         "contao/news-bundle": "^4.13",
         "contao/newsletter-bundle": "^4.13",
-        "nutshell-framework/nutshell": "^1.0"
+        "nutshell-framework/nutshell": "^2.0"
     },
     "extra": {
         "contao-component-dir": "assets"
