@@ -30,9 +30,9 @@ const paths = {
         fonts:      distPath + 'fonts'
     },
     watch: {
-        styles:     themePath + 'src/scss/**/*.scss',
-        scripts:    themePath + 'src/js/**/*.js',
-        images:     themePath + 'src/img/**/*',
+        styles:     themePath + 'scss/**/*.scss',
+        scripts:    themePath + 'js/**/*.js',
+        images:     themePath + 'img/**/*',
         templates:  'templates/**/*'
     },
 };
