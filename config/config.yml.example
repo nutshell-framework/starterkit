@@ -8,6 +8,7 @@ contao:
     adminEmail: '%env(ADMIN_EMAIL)%'
     dateFormat: 'd.m.Y'
     datimFormat: 'd.m.Y H:i'
+    timeZone: 'Europe/Berlin'
 
     # Adjust the upload + image settings
     maxFileSize: 104857600
