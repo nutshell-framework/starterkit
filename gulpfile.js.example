@@ -10,9 +10,9 @@ const autoprefixer  = require('autoprefixer');
 
 
 const themePath     = 'theme/';
-const distPath      = 'web/theme/';
+const distPath      = 'public/theme/';
 
-// browser sync proxy url: e.g. a vhost-based url, 
+// browser sync proxy url: e.g. a vhost-based url,
 // see also: https://www.browsersync.io/docs/options#option-proxy
 const bsProxy       = 'nutshell.localhost';
 

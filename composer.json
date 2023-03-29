@@ -25,10 +25,10 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "Contao\\ManagerBundle\\Composer\\ScriptHandler::initializeApplication"
+            "@php vendor/bin/contao-setup --ansi"
         ],
         "post-update-cmd": [
-            "Contao\\ManagerBundle\\Composer\\ScriptHandler::initializeApplication"
+            "@php vendor/bin/contao-setup --ansi"
         ]
     }
 }
