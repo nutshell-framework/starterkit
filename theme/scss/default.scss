@@ -48,13 +48,14 @@
   *
   */
 
-// VARIABLES
-@import "variables";
+  // MIXINS
+  @import "mixins/general";
+  @import "mixins/responsive";
 
 
-// MIXINS
-@import "mixins/general";
-@import "mixins/responsive";
+  // VARIABLES
+  @import "config";
+  @import "variables";
 
 
 // GENERIC

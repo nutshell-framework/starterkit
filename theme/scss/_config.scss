@@ -1,15 +1,17 @@
 // *
 // * Erdmann & Freunde - Nutshell
-// * Starterkit
+// * BASE Contao Framework
 // * erdmann-freunde.de/nutshell/
 // *
 // * Lizenziert unter MIT OPEN SOURCE
 // *
 
 //
-// COMPONENTS/LINKS
+// CONFIG
 // --------------------------------------------------
 
-@import "assets/nutshell/scss/components/links";
+// PUT YOUR SASS-VARIABLES HERE
 
-// --------------------------------------------------
+// ----------------------------------------------------
+
+@import 'assets/nutshell/scss/config';
