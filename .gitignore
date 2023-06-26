@@ -27,12 +27,12 @@ nbproject/
 /backups/
 
 # Symlinked resources
-/web/assets
-/web/bundles/
-/web/files/
-/web/share/
-/web/system/
-/web/vendor/
+/public/assets
+/public/bundles/
+/public/files/
+/public/share/
+/public/system/
+/public/vendor/
 
 # Skip files
 /system/modules/*/.skip
@@ -40,12 +40,11 @@ nbproject/
 # Nutshell
 package-lock.json
 /node_modules/
-/web/files/nutshell
-/web/theme/css/*
-/web/theme/fonts/*
-/web/theme/img/*
-/web/theme/js/*
-/web/theme/maps/*
+/public/theme/css/*
+/public/theme/fonts/*
+/public/theme/img/*
+/public/theme/js/*
+/public/theme/maps/*
 
 # Theme
 gulpfile.js
