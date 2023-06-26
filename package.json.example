@@ -13,5 +13,10 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify": "^3.0.2",
     "node-sass": "^7.0.1"
+  },
+  "devDependencies": {
+    "stylelint": "^15.6.1",
+    "stylelint-config-standard-scss": "^9.0.0",
+    "stylelint-scss": "^5.0.0"
   }
 }
