@@ -1,0 +1,16 @@
+{
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "prettier.cssEnable": ["css", "scss"],
+  "prettier.printWidth": 200,
+  "overrides": [
+    {
+      "files": ["*.json"],
+      "options": {
+        "tabWidth": 4
+      }
+    }
+  ]
+}
