@@ -4,7 +4,6 @@ contao:
     licenseAccepted: true
     folderUrl: true
 
-    installPassword: '%env(INSTALL_PASSWORD)%'
     adminEmail: '%env(ADMIN_EMAIL)%'
     dateFormat: 'd.m.Y'
     datimFormat: 'd.m.Y H:i'
