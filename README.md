@@ -1,36 +1,52 @@
-# Nutshell Framework Starterkit for Contao CMS
+# Nutshell Framework Starterkit für Contao CMS
 
-You can find the documentation of the **Nutshell** at <http://nutshell.erdmann-freunde.de/> (deutsch/german).
+**nutshell-framework/starterkit** ist ein praktisches Werkzeug für Webentwickler, um ein neues Contao-Projekt zu starten.
+Es enthält SCSS-Dateien als Ausgangspunkt, eine `.htaccess.example`, die für die meisten Projekte geeignet ist, und möglicherweise weitere nützliche Inhalte in der Zukunft.
 
-**nutshell-framework/starterkit** is a convenience wrapper for web developers to start with a new Contao project.
-It is packed with scss files to start with, an `.htaccess.example` suitable for the most projects and maybe more to come.
+Beachte, dass ab dem Zeitpunkt, an dem du das Projekt erstellst (`composer create-project`), weitere Updates in diesem Repository keine Auswirkungen auf deine Installation haben.
 
-Be reminded that starting with the point you created the project (`composer create-project`) further updates within this repository will not affect your installation.
+## Verwendung
 
-## Usage
-### Create composer project
+### Composer-Projekt erstellen
+
 ```bash
-composer create-project nutshell-framework/starterkit [path] [branch]
-```
-`[path]`= name of the folder you want to install your Contao installation in
-
-`[branch]` = choose a branch from the repository, for example `4.9.x-dev` for a contao 4.9 installation
-
-_Alternatively, download and extract the zip file, run `composer install`._
-
-### Change to the Contao installation
-```bash
-cd path
+composer create-project nutshell-framework/starterkit [pfad] [branch]
 ```
 
-### Install node modules
+`[pfad]` = Name des Ordners, in dem du deine Contao-Installation erstellen möchtest
+
+`[branch]` = Wähle einen Branch aus dem Repository, z. B. `5.3.x-dev` für eine Contao 5.3-Installation
+
+_Alternativ kannst du die ZIP-Datei herunterladen und entpacken und anschließend `composer install` ausführen._
+
+### Wechsle in die Contao-Installation
+
+```bash
+cd pfad
+```
+
+### Node-Module installieren
+
 ```bash
 npm install
 ```
 
-### Initialize git repository
+### Git-Repository initialisieren
+
 ```bash
 git init
 git add .
-git commit -m "Initial files"
+git commit -m "Initiale Dateien"
+```
+
+### Webpack mit HMR ausführen (DEV)
+
+```bash
+npm run dev-server
+```
+
+### Webpack im Produktiveinsatz
+
+```bash
+npm run build
 ```
