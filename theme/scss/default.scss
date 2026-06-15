@@ -48,49 +48,44 @@
   *
   */
 
-  // MIXINS
-  @import "mixins/general";
-  @import "mixins/responsive";
+// MIXINS
+@import 'mixins/general';
+@import 'mixins/responsive';
 
-
-  // VARIABLES
-  @import "config";
-  @import "variables";
-
+// VARIABLES
+@import 'config';
+@import 'variables';
 
 // GENERIC
-@import "assets/nutshell/scss/generic/normalize";
-@import "assets/nutshell/scss/generic/contao-reset";
-@import "assets/nutshell/scss/generic/box-sizing";
-
+@import '../../assets/nutshell/scss/generic/normalize';
+@import '../../assets/nutshell/scss/generic/contao-reset';
+@import '../../assets/nutshell/scss/generic/box-sizing';
 
 // BASE
-@import "base/shared";
-@import "base/page";
-@import "base/fonts";
-@import "base/type";
-@import "base/grid";
-@import "base/layout";
-@import "base/article";
-
+@import 'base/shared';
+@import 'base/page';
+@import 'base/fonts';
+@import 'base/type';
+@import 'base/grid';
+@import 'base/layout';
+@import 'base/article';
 
 // COMPONENTS
-@import "components/media";
-@import "components/links";
-@import "components/navs";
-@import "components/slider";
-@import "components/news";
-@import "components/events";
-@import "components/forms";
-@import "components/accordion";
-@import "components/downloads";
-@import "components/tables";
-@import "components/newsletter";
-@import "components/faq";
-@import "components/comments";
-@import "components/search";
-@import "components/logo";
-
+@import 'components/media';
+@import 'components/links';
+@import 'components/navs';
+@import 'components/slider';
+@import 'components/news';
+@import 'components/events';
+@import 'components/forms';
+@import 'components/accordion';
+@import 'components/downloads';
+@import 'components/tables';
+@import 'components/newsletter';
+@import 'components/faq';
+@import 'components/comments';
+@import 'components/search';
+@import 'components/logo';
 
 // TRUMPS
-@import "trumps/helper";
+@import 'trumps/helper';
